@@ -1,0 +1,30 @@
+{
+    "name" : "klabs/menubundle",
+    "description" : "Symfony menu bundle",
+    "type" : "symfony-bundle",
+    "authors" : [{
+        "name" : "Urmat Jenaliev",
+        "email" : "sonkei@ya.ru"
+    }],
+    "keywords" : [
+        "symfony"
+    ],
+    "license" : [
+        "MIT"
+    ],
+    "require" : {
+    },
+    "autoload" : {
+        "psr-0" : {
+            "Klabs\\MenuBundle" : ""
+        }
+    },
+    "target-dir" : "Klabs/MenuBundle",
+    "repositories" : [{
+    }],
+    "extra" : {
+    "branch-alias" : {
+            "dev-master" : "1.0-dev"
+        }
+    }
+}
